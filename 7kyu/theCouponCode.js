@@ -31,9 +31,9 @@ function monthToNumber(month) {
 
 function formatDate(dateArray) {
   let month = monthToNumber(dateArray[0]);
-  let day = dateArray[1].replace(',', '').padStart(2, '0'); // Ensure day is two digits
+  let day = dateArray[1].replace(',', '').padStart(2, '0');
   let year = dateArray[2];
-  return `${year}${month.toString().padStart(2, '0')}${day}`; // Format as YYYYMMDD
+  return `${year}${month.toString().padStart(2, '0')}${day}`;
 }
 
 function checkCoupon(enteredCode, correctCode, currentDate, expirationDate) {
