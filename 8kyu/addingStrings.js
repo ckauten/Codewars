@@ -7,6 +7,7 @@
 // "", "" --> "0"
 // "2", "" --> "2"
 // "-5", "3" --> "-2"
+
 // Notes:
 
 // If either input is an empty string, consider it as zero.
